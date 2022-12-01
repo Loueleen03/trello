@@ -1,0 +1,114 @@
+.cardcontainer{
+    display: flex;
+    margin-top: 1%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.card{
+    border:#ffa31a solid 2px;
+}
+.card:hover{
+    transition-duration: 1s;
+    box-shadow:0px 0px 300px white;
+    
+}
+.card-header{
+    background-color: #292929;
+    color: #ffa31a;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: 20px;
+}
+.columntitle{
+    background-color: transparent;
+    border:none;
+    border-bottom: #ffa31a solid 1px;
+    color: #ffa31a;
+    text-transform: capitalize;
+    width: 75%;
+    word-break: break-all;
+    resize: none;
+}
+.addicon{
+    width: 100%;
+    width: 25px;
+    transition: transform .3s;
+}
+.addicon:hover{
+    transform: scale(1.6);
+}
+.btnadd{
+    background-color: transparent;
+    border:none;
+}
+.card-body{
+    background-color: #ffa31a;
+    font-size: 16px;
+}
+.card-footer{
+    display: flex;
+    justify-content: space-between;
+    background-color:#292929;
+    color: #ffa31a;
+}
+.drag-el{
+    border: #292929 solid 2px;
+    border-radius: 5px;
+    padding: 2%;
+    margin: 2%;
+    transition: transform .3s;
+}
+.drag-el:hover{
+    transform: scale(1.17);
+}
+.drag-el:active{
+    transform: scale(1);
+}
+.btnaddc{
+    margin-top: 1%;
+    margin-left: 22px;
+    border: #ffa31a solid 3px;
+    border-radius: 4px;
+    background-color: #292929;
+    color: #ffa31a;
+    transition: transform .3s;
+}
+.btnaddc:hover{
+    transform: scale(1.15);
+}
+.btnaddc:active{
+    background-color: #ffa31a;
+    color: #292929;
+}
+.btndelC{
+    background-color: transparent;
+    border:none;
+}
+.delicon{
+    background-color:#ffa31a;
+    border-radius: 50%;
+    border: #ffa31a solid 2px;
+    width: 30px;
+    transition: transform .3s;
+}
+.delicon:hover{
+    transform: scale(1.3);
+    
+}
+.btnsavC{
+    background-color: #292929;
+    color: #ffa31a;
+    border: #ffa31a solid 2px;
+    border-radius: 20px;
+    transition: transform .8s;
+}
+.btnsavC:hover{
+    transform: scale(1.2);
+    transform: rotate(360deg);
+    transition: transform .5s;
+}
+.btnsavC:focus{
+    background-color: #ffa31a;
+    color: #292929;
+}

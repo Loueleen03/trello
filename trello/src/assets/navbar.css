@@ -1,0 +1,66 @@
+@import './base.css';
+
+body{
+    background-color: #292929;
+}
+.bg{
+    background-color: #ffa31a;
+}
+.navbar-brand{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;  
+}
+.navbar-brand:hover{
+    opacity: 0.2;
+}
+.usernamenav{
+    color: #292929;
+    border-left: #292929 solid 2px;
+    padding: 15px;
+}
+.brandandname{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.navbar-toggler{
+    border: black solid 2px;
+}
+.navbar-toggler:hover{
+    opacity: 0.2;
+}
+.offcanvas-header{
+    background-color: #ffa31a;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+}
+.offcanvas-body{
+    background-color: #292929;
+}
+.nav-link{
+    color: white;
+}
+.nav-link:hover{
+    color: #ffa31a;
+}
+.nav-link:active{
+    color: #ffa31a;
+}
+.dropdown-menu{
+    background-color: #292929;
+    color: #ffa31a;
+    border: #ffa31a 2px solid;
+}
+.dropdown-item{
+    color: #ffa31a;
+}
+.dropdown-item:hover{
+    color: #292929;
+    background-color: #ffa31a;
+}
+.dropdown-divider{
+    background-color: #ffa31a;
+}

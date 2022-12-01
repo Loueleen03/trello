@@ -1,0 +1,58 @@
+.modal-content{
+    border:none;
+}
+.modal-header{
+    background-color: #ffa31a;
+    border: none;
+}
+.btn-close:hover{
+    border-radius: 50%;
+    background-color: #292929;
+}
+.modal-body{
+    background-color: #292929;
+}
+.modal-footer{
+    background-color: #ffa31a;
+    border: none;
+}
+.form-label{
+    color: #ffa31a;
+}
+.form-control{
+    border: none;
+    background-color: #292929;
+    border-radius: 0%;
+    outline: none;
+    color: white;
+    border-bottom: #ffa31a 2px solid;
+}
+.form-control::placeholder{
+    color:white;
+    opacity: 0.3;
+}
+.form-control:focus{
+    background-color:#292929;
+    box-shadow: none;
+    border-color:white;
+    color: white;
+}
+.textmodalbtn{
+    text-decoration: none;
+    color:#292929;
+    text-decoration: underline;
+}
+.textmodalbtn:hover{
+    color:#ffa31a;
+    background-color: #292929;
+}
+.btn-modal{
+    background-color: #292929;
+    color: #ffa31a;
+    border: #292929 solid 1px;
+}
+.btn-modal:hover{
+    background-color: #ffa31a;
+    color: #292929;
+    border: #292929 solid 1px;
+}
